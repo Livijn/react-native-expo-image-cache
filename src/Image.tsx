@@ -43,7 +43,7 @@ export default class Image extends React.Component<ImageProps, ImageState> {
 
   state = {
     uri: undefined,
-    intensity: new Animated.Value(100)
+    intensity: new Animated.Value(20)
   };
 
   componentDidMount() {
